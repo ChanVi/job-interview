@@ -5,8 +5,9 @@ import java.util.Scanner;
  */
 public class AaddB {
 
-    static public void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    @SuppressWarnings("resource")
+	static public void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
         int sumNum = 0;
         boolean flag = false;
         while(scanner.hasNextInt()){
