@@ -3,7 +3,6 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-import javafx.scene.shape.SVGPath;
 
 
 public class StringMax {
