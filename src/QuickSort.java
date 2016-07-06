@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-
-
-
 public class QuickSort {
 
 	public static void quickSort(int[] data, int start, int end) {
