@@ -1,14 +1,23 @@
 package huawei;
 
 import java.util.Scanner;
-
+//质因子
 public class PrimeNum {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		while(in.hasNext()){
 			int x = in.nextInt();
-			test(x);
+			for (int i = 2; i <=x; ) {
+				if(x%i==0){
+					x/=i;
+					System.out.print(i+" ");
+				}else {
+					i++;
+				}
+				
+			}
+			System.out.println();
 			
 		}
 	}
