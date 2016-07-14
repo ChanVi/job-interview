@@ -1,5 +1,6 @@
 package huawei;
 
+//统计1的个数
 public class NumOfOne {
 
 	public static void main(String[] args) {

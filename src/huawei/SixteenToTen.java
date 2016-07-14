@@ -1,7 +1,7 @@
 package huawei;
 
 import java.util.Scanner;
-
+//16进制到10进制
 public class SixteenToTen {
 
 	public static void main(String[] args) {

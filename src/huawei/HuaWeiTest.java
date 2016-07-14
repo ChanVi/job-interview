@@ -3,7 +3,6 @@ package huawei;
 import java.util.ArrayList;  
 import java.util.List;  
   
-  
 public class HuaWeiTest {  
   
     public static void main(String[] args) {  

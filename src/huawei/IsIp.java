@@ -1,6 +1,7 @@
 package huawei;
 
 import java.util.*; 
+//ip判断
 public class IsIp {
     private static int a = 0;
     private static int b = 0;

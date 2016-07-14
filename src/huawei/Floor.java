@@ -1,7 +1,7 @@
 package huawei;
 
 import java.util.Scanner;
-
+//求整数
 public class Floor {
 
 	public static void main(String[] args) {

@@ -1,7 +1,6 @@
 package huawei;
 
 import java.util.Scanner;
-
 //最后一个单词的数量
 public class LastWordofString {
 
