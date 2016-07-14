@@ -15,9 +15,7 @@ public class Floor {
 				dataInt+=1;
 			}
 			System.out.println(dataInt);
-		}
-		
-		
+		}				
 	}
 
 }
