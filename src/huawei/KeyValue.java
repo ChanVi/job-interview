@@ -1,9 +1,22 @@
 package huawei;
-
+/**合并表记录
+ * 输出描述:
+ * 输出合并后的键值对（多行）
+ * 输入例子:
+ * 4
+ * 0 1
+ * 0 2
+ * 1 2
+ * 3 4
+ * 输出例子:
+ * 0 3
+ * 1 2
+ * 3 4
+ */
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
-//合并表记录
+
 public class KeyValue {
 
 	public static void main(String[] args) {

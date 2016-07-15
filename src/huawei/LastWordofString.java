@@ -1,7 +1,12 @@
 package huawei;
-
+/**字符串最后一个单词的长度
+ * 输入例子:
+ * hello world
+ * 输出例子:
+ * 5
+ */
 import java.util.Scanner;
-//最后一个单词的数量
+
 public class LastWordofString {
 
 	public static void main(String[] args) {

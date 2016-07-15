@@ -1,8 +1,19 @@
 package huawei;
-
+/**字符串分隔
+ * 输入描述:
+ * 连续输入字符串(输入2次,每个字符串长度小于100)
+ * 输出描述:
+ * 输出到长度为8的新字符串数组
+ * 输入例子:
+ * abc
+ * 123456789
+ * 输出例子:
+ * abc00000
+* 12345678
+* 90000000
+ */
 import java.util.Scanner;
 
-//字符串分隔
 public class StringTo8 {
 
 	 public static void main(String[] args) {
