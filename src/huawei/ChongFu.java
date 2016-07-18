@@ -3,6 +3,12 @@ package huawei;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * @filename : ChongFu.java
+ * @author :V V
+ * @version :2016年7月18日上午11:11:04
+ * @description :去除重复 例如：字符串"aacnnn123**））" -->a2c1n3
+ */
 public class ChongFu {
 
 	public static void main(String[] args) {		

@@ -3,6 +3,12 @@ package huawei;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @filename : ChengJiPaiXu.java
+ * @author :V V
+ * @version :2016年7月18日上午11:10:34
+ * @description :成绩排序未完成
+ */
 public class ChengJiPaiXu {
 
 	public static void main(String[] args) {
