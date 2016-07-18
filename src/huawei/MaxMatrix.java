@@ -3,6 +3,13 @@ package huawei;
 import java.util.Scanner;
 
 
+
+/**
+ * @filename : MaxMatrix.java
+ * @author :V V
+ * @version :2016年7月18日上午11:08:44
+ * @description :查找矩阵中最大正方形
+ */
 public class MaxMatrix {
 
 	public static void main(String[] args) {
