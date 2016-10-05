@@ -3,6 +3,13 @@ package GCDemo;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * @filename : GCDemo.java
+ * @author : chenvi
+ * @version :2016年10月5日下午1:33:37
+ * @description :
+ */
 public class GCDemo {
 	public static void main(String[] args) {
 		
