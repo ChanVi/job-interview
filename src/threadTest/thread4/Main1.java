@@ -1,11 +1,16 @@
 package threadTest.thread4;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class Main1 {
 
 	private static Object lock = new Object();//通过对象锁控制
 	private static int count = 0;//控制打印顺序
 	
 	public static void main(String[] args) {
+		
 		Main1 main = new Main1();
 		new Thread(main.new Run1("AAAA",1)).start();
 		new Thread(main.new Run1("BBBB",2)).start();
