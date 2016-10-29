@@ -11,14 +11,13 @@ import java.util.Set;
 public class TestAB {
 
 	public static void main(String[] args) {
-		Map<String, String[]> map = new HashMap<String, String[]>();
-		map.put("1", new String[]{"a","b","c"});
-		Map<String, String[]> map1 = new HashMap<String, String[]>();
-		map1.put("2", new String[]{"d","e","f"});
-		List<Map<String, String[]>> list = new ArrayList<Map<String,String[]>>();
-		list.add(map);
-		list.add(map1);
-		printAllRes(list);
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(1);
+		System.out.println(list.get(0));
+		list.add(0, 2);
+		System.out.println(list.get(0));
+		list.set(0, 1);
+		System.out.println(list.get(0));
 	}
 
 	public static void printAllRes(List<Map<String, String[]>> list){
